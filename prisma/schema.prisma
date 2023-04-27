@@ -1,6 +1,6 @@
 datasource db {
   provider          = "postgresql"
-  url               = env("DATABASE_URL")
+  url               = env("postgres://cyosys:xmqZr4bYGzw3@ep-small-flower-811581.us-east-2.aws.neon.tech/roomgpt")
   directUrl         = env("DIRECT_DATABASE_URL")
   shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
 }
